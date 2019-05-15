@@ -77,3 +77,4 @@ git commit -m 'initial commit'
 git push -u origin master
 npm start
 
+npm install node-sass
