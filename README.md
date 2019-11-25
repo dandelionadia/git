@@ -71,7 +71,7 @@ git remote add origin URL_РЕПОЗИТОРІЯ // каже локальном�
 touch README.md
 git add README.md
 git commit -m ''
-npx create-react-app .
+npx create-react-app . --typescript
 git add .
 git commit -m 'initial commit'
 git push -u origin master
