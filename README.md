@@ -66,15 +66,15 @@ git merge master // додати в свою гілку актуалізован
 3. Ініціалізуй новий локальний репозиторій:
 
 ```
+створити папку для проекту
 git init // ініціалізує новий локальний репозиторій
 git remote add origin URL_РЕПОЗИТОРІЯ // каже локальному репозиторію синхронізуватись із репо в інтернеті (віддаленого репо)
-touch README.md
-git add README.md
-git commit -m ''
-npx create-react-app . --typescript
+npx create-react-app . --template typescript
 git add .
 git commit -m 'initial commit'
 git push -u origin master
 npm start
 
-npm install node-sass
+npm install atomic-layout
+npm install --save styled-components
+npm install --save @types/styled-components
